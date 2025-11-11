@@ -15,13 +15,13 @@ document.getElementById("myTestBtn").addEventListener("click",function(ev){
     console.info(ev.target)
 })
 
-const redBtn = document.querySelector(".red")
-redBtn.addEventListener("click", function(){
-    console.info("Red Button clicked")
-    document.body.setAttribute("class", "redBack")
-})
+// const redBtn = document.querySelector(".red")
+// redBtn.addEventListener("click", function(){
+//     console.info("Red Button clicked")
+//     document.body.setAttribute("class", "redBack")
+// })
 
-const defaultBtn = document.querySelector(".reset")
-defaultBtn.addEventListener("click", function(){
-    document.body.removeAttribute("class")
-})
+// const defaultBtn = document.querySelector(".reset")
+// defaultBtn.addEventListener("click", function(){
+//     document.body.removeAttribute("class")
+// })
